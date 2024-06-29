@@ -71,6 +71,8 @@ reprex()
 
 ### Dados do R ou do pacote dados
 
+### Copia apenas os dados ou coluna necessária para resolver o problema
+
 library(dados)
 pinguins
 starwars
