@@ -2,7 +2,7 @@
 
 ## Encontro 4: Fluxo de trabalho (Parte 2)
 ## Mediadoras: Beatriz Milz e Karina Ferrara Barros
-## Data: 28/06/2024
+## Data: 28/05/2024
 
 ### Tópicos do script
 
