@@ -132,3 +132,37 @@ mean(x, na.rm = TRUE) # Espaço após a vírgula sempre como na gramática
 ### Evite escrever assim:
 mean(x,na.rm = TRUE)
 
+## Tudo bem acrescentar espaços para alinhamento:
+
+voos |>
+  mutate(
+    velocidade   = distancia / tempo_voo,
+    hora_saida   = horario_saida %/% 100,
+    minuto_saida = horario_saida %% 100
+  )
+
+## Sobre pipe:
+
+### Sempre deixar um espaço antes do pipe e ser sempre a última coisa da linha
+### Exceção: quando cabe em uma linha:
+
+df |> mutate(y = x + 1)
+
+### Deixar cada argumento em uma linha
+
+### Tente escrever assim:
+voos |>
+  group_by(cauda) |> # Recuo de dois espaços após pipe acima
+  summarise(        # Código com mais de um argumento, recuar dois espaços
+    atraso = mean(atraso_chegada, na.rm = TRUE),
+    n = n()
+  ) # Fechar o parêtese em uma linha própria
+
+### Evite escrever assim:
+voos |>
+  group_by(
+    cauda
+  ) |>
+    summarise(atraso = mean(atraso_chegada, na.rm = TRUE), n = n())
+
+### Evite encadeamentos muito longos (com mais de 10 ou 15 linhas)
