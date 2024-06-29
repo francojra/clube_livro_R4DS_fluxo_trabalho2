@@ -21,3 +21,4 @@
 5. Sobre o ggplot2
 6. Criar rótulos/seções no RStudio
 
+#### Exercícios
