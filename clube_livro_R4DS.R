@@ -32,3 +32,11 @@ Sys.setenv(LANGUAGE = "pt")
 ### Serve para não divulgar seu próprio código e dados
 ### Pacote reprex
 
+y <- 1:4
+mean(y)
+
+reprex::reprex() # Formata em Markdown para colar no StackOverflow ou GitHub
+
+### Para executar o reprex, seleciona e copia o seu código (crtl + c) e 
+### dá um run em reprex()
+### Isso torna o código mais limpo, com a resposta e fácil dos leitores entenderem
