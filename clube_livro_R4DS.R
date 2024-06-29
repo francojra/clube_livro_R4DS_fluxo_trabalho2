@@ -24,5 +24,11 @@ Sys.setenv(LANGUAGE = "pt")
 
 ## Pesquisando no StackOverflow: https://stackoverflow.com/
 
-### Incluir tags entre []
+### Incluir tags entre [] para especificar melhor a busca
+### Por exemplo, se quer saber sobre o [R], ele filtra apenas R e não Python, SPSS, etc.
+
+## Criar um reprex (exemplo reproduzível)
+
+### Serve para não divulgar seu próprio código e dados
+### Pacote reprex
 
