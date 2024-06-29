@@ -97,8 +97,8 @@ mtcars
 
 library(styler)
 
-### Comando do R Studio: ctrl/cmd + shift + p
-### Seleciona o código > ctrl/cmd + shift + p > Pesquisa style > Style selection 
+### Comando do R Studio: ctrl + shift + p
+### Seleciona o código > ctrl + shift + p > Pesquisa style > Style selection 
 ### Botão Addins também econtra o Style de forma fácil
 
 x<-("estilo") # Código desorganizado
@@ -166,3 +166,24 @@ voos |>
     summarise(atraso = mean(atraso_chegada, na.rm = TRUE), n = n())
 
 ### Evite encadeamentos muito longos (com mais de 10 ou 15 linhas)
+
+## Sobre o ggplot2:
+
+### Segue o mesmo procedimento do pipe, mas pensando no +
+
+voos |>
+  group_by(mes) |> # Recuo de dois espaços após pipe acima
+  summarise(        # Código com mais de um argumento, recuar dois espaços
+    atraso = mean(atraso_chegada, na.rm = TRUE)
+  ) |>
+  ggplot(aes(x = mes, y = atraso)) +
+  geom_point() +
+  geom_line()
+
+## Criar rótulos/seções no RStudio:
+
+### Comando ctrl + shift + R (ou definir ctrl + shift + i)
+### Ou na barra de ferramentas: Code > Insert Section
+
+
+
