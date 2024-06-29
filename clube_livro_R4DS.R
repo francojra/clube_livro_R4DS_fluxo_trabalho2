@@ -57,4 +57,6 @@ tidyverse_update()
 
 pacotes_antigos <- old.packages()
 
+### Dica: Tools > Check for Package Updates
+
 ### b) Simplificar
