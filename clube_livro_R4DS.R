@@ -88,4 +88,18 @@ mtcars
 
 # Capítulo 4 - Fluxo de Trabalho: estilo de código -----------------------------------------------------------------------------------------
 
+## Guia de estilo tidyverse: https://style.tidyverse.org/
+## É uma convenção de estilo de código
+## Facilita a leitura de outras pessoas, para você mesmo no futuro e para
+## pedir ajuda
 
+## Pacote styler:
+
+library(styler)
+
+### Comando do R Studio: ctrl/cmd + shift + p
+### Seleciona o código > ctrl/cmd + shift + p > Pesquisa style > Style selection 
+
+x<-("estilo") # Código desorganizado
+
+x <- ("estilo") # Após o Style selection, ele organiza seu código
