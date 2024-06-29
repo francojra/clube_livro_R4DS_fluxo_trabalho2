@@ -1,8 +1,8 @@
 
 # Clube do Livro R for Data Science (2ed) --------------------------------------------------------------------------------------------------
 # Encontro 4: Fluxo de trabalho (Parte 2) --------------------------------------------------------------------------------------------------
-# Mediadoras: Beatriz Milz e Karina Ferrara Barros -----------------------------------------------------------------------------------------
-# Data: 28/06/2024 -------------------------------------------------------------------------------------------------------------------------
+# Mediadoras: Beatriz Milz, Karina Ferrara Barros e Luana Antunes --------------------------------------------------------------------------
+# Data: 28/05/2024 -------------------------------------------------------------------------------------------------------------------------
 
 # Capítulo 8 - Fluxo de Trabalho: obtendo ajuda --------------------------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ reprex::reprex() # Formata em Markdown para colar no StackOverflow ou GitHub
 ### Valoriza o tempo das pessoas que te ajudam
 ### Outra forma rápida: seleciona o código > Addins > Reprex selection
 
-# Necessário: ------------------------------------------------------------------------------------------------------------------------------
+# Necessário! ------------------------------------------------------------------------------------------------------------------------------
 
 ### a) Tornar reprodutível: incluir pacotes, dados e código. Também, verificar 
 ### utilização da versão atualizada
@@ -132,7 +132,7 @@ mean(x, na.rm = TRUE) # Espaço após a vírgula sempre como na gramática
 ### Evite escrever assim:
 mean(x,na.rm = TRUE)
 
-## Tudo bem acrescentar espaços para alinhamento:
+### Tudo bem acrescentar espaços para alinhamento:
 
 voos |>
   mutate(
