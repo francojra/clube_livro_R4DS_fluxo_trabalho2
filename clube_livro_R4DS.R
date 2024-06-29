@@ -103,3 +103,6 @@ library(styler)
 x<-("estilo") # Código desorganizado
 
 x <- ("estilo") # Após o Style selection, ele organiza seu código
+
+### Style active file: organiza todo o código do script
+
