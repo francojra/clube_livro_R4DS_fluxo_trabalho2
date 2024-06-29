@@ -59,4 +59,9 @@ pacotes_antigos <- old.packages()
 
 ### Dica: Tools > Check for Package Updates
 
-### b) Simplificar
+### b) Simplificar: usar dados do próprio R, inserir comentários, remover o que
+### não é relacionado ao problema.
+
+# Incluir os dados -------------------------------------------------------------------------------------------------------------------------
+
+
