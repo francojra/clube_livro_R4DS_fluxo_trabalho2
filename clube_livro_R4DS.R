@@ -112,10 +112,23 @@ x <- ("estilo") # Após o Style selection, ele organiza seu código
 ### Usar minúsculas e _
 ### Não alternar minúsculas e maiúsculas
 
-### Evite escrever assim
-
+### Evite escrever assim:
 VOOSCURTOS <- voos |> filter(tempo_voo < 60)
 
-### Tente escrever assim
-
+### Tente escrever assim:
 voos_curtos <- voos |> filter(tempo_voo < 60)
+
+## Sobre espaços:
+
+### Tente escrever assim:
+z <- (a + b)^2 / d # Espaço em ambos os lados dos operadores, exceto ^
+
+### Evite escrever assim:
+z <- ( a + b ) ^ 2/d # Não coloque espaços dentro ou froa de parênteses
+
+### Tente escrever assim:
+mean(x, na.rm = TRUE) # Espaço após a vírgula sempre como na gramática
+
+### Evite escrever assim:
+mean(x,na.rm = TRUE)
+
