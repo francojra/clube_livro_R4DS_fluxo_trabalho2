@@ -7,8 +7,10 @@
 # Capítulo 8 - Fluxo de trabalho: obtendo ajuda --------------------------------------------------------------------------------------------
 
 ## Pesquisando no Google
-## O Google é bom com mensagens de erro
-## Comando para trocar idioma para inglês (pesquisar erro em inglês)
+
+### O Google é bom com mensagens de erro
+### Comando para trocar idioma para inglês (pesquisar erro em inglês)
+### Google exclusivo para R chamado RSeek
 
 2 + x
 
@@ -16,4 +18,11 @@ Sys.setenv(LANGUAGE = "en")
 
 2 + x
 
-Sys.setenv(LANGUAGE = "pt") # Para voltar para português, fecha e abre de novo
+Sys.setenv(LANGUAGE = "pt") 
+# Para voltar para português, fecha e abre de novo
+# ou clica em session e "Restart R"
+
+## Pesquisando no StackOverflow: https://stackoverflow.com/
+
+### Incluir tags entre []
+
