@@ -64,4 +64,16 @@ pacotes_antigos <- old.packages()
 
 # Incluir os dados -------------------------------------------------------------------------------------------------------------------------
 
+dput(mtcars) # Fornece os dados para selecionar e copiar
 
+library(reprex)
+reprex()
+
+### Dados do R ou do pacote dados
+
+library(dados)
+pinguins
+starwars
+diamante
+mtcarros
+mtcars
