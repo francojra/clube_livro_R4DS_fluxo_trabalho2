@@ -99,6 +99,7 @@ library(styler)
 
 ### Comando do R Studio: ctrl/cmd + shift + p
 ### Seleciona o código > ctrl/cmd + shift + p > Pesquisa style > Style selection 
+### Botão Addins também econtra o Style de forma fácil
 
 x<-("estilo") # Código desorganizado
 
@@ -106,3 +107,15 @@ x <- ("estilo") # Após o Style selection, ele organiza seu código
 
 ### Style active file: organiza todo o código do script
 
+## Para nomes:
+
+### Usar minúsculas e _
+### Não alternar minúsculas e maiúsculas
+
+### Evite escrever assim
+
+VOOSCURTOS <- voos |> filter(tempo_voo < 60)
+
+### Tente escrever assim
+
+voos_curtos <- voos |> filter(tempo_voo < 60)
