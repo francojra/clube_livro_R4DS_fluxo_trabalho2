@@ -40,3 +40,5 @@ reprex::reprex() # Formata em Markdown para colar no StackOverflow ou GitHub
 ### Para executar o reprex, seleciona e copia o seu código (crtl + c) e 
 ### dá um run em reprex()
 ### Isso torna o código mais limpo, com a resposta e fácil dos leitores entenderem
+### Valoriza o tempo das pessoas que te ajudam
+### Outra forma rápida: seleciona o código > Addins > Reprex selection
