@@ -53,7 +53,7 @@ reprex::reprex() # Formata em Markdown para colar no StackOverflow ou GitHub
 library(tidyverse)
 tidyverse_update()
 
-### Outro pacotes:
+### Outros pacotes:
 
 pacotes_antigos <- old.packages()
 
@@ -79,3 +79,9 @@ starwars
 diamante
 mtcarros
 mtcars
+
+# Indicações para acompanhar  --------------------------------------------------------------------------------------------------------------
+
+## Blog do Tidyverse: https://www.tidyverse.org/blog/
+## R Weekly: https://rweekly.org/
+## Curso-R (lives sobre atualizações): https://www.instagram.com/cursoo_r/
